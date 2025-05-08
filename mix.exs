@@ -36,7 +36,7 @@ defmodule ExMonobank.MixProject do
 
   defp deps do
     [
-      {:tesla, "~> 1.4.0"},
+      {:tesla, "~> 1.14.1"},
       {:hackney, "~> 1.18"},
       {:jason, ">= 1.0.0"},
       {:ex_doc, "~> 0.29.4", only: :dev, runtime: false},
